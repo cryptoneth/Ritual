@@ -132,6 +132,7 @@ foundryup
 
 ```
 ```
+cd
 cd infernet-container-starter/projects/hello-world/contracts/lib/
 rm -r forge-std
 rm -r infernet-sdk
