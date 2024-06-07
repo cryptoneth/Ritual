@@ -164,5 +164,7 @@ make call-contract project=hello-world
 
 docker ps -a
 
-docker logs <CONTAINER ID>
+docker logs infernet-node 
+docker logs infernet-anvil 
+
 
