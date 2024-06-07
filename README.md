@@ -49,10 +49,10 @@ project=hello-world make deploy-container
 
 ````
 
-Press control+A+D
+Press control+A+D  
 
 
-https://basescan.org/address/0x8d871ef2826ac9001fb2e33fdd6379b6aabf449c#writeContract
+https://basescan.org/address/0x8d871ef2826ac9001fb2e33fdd6379b6aabf449c#writeContract  
 
 
 ````
@@ -60,42 +60,42 @@ https://basescan.org/address/0x8d871ef2826ac9001fb2e33fdd6379b6aabf449c#writeCon
 nano ~/infernet-container-starter/deploy/config.json
 
 ````
-"registry_address": "0x3B1554f346DFe5c482Bb4BA31b880c1C18412170",
-change rpc_url to https://base-rpc.publicnode.com
-change private_key to your wallet's private key.
+"registry_address": "0x3B1554f346DFe5c482Bb4BA31b880c1C18412170",  
+change rpc_url to https://base-rpc.publicnode.com  
+change private_key to your wallet's private key.  
 
-Press crtl+x
-press y
-press enter
+Press crtl+x  
+press y  
+press enter  
 
 
 ```
 nano ~/infernet-container-starter/projects/hello-world/contracts/Makefile
 ```
-change sender's address to your wallet's private key.
-change RPC_URL to https://base-rpc.publicnode.com
-Press crtl+x
-press y
-press enter
+change sender's address to your wallet's private key.  
+change RPC_URL to https://base-rpc.publicnode.com  
+Press crtl+x  
+press y  
+press enter  
 
 ```
 nano ~/infernet-container-starter/projects/hello-world/contracts/script/Deploy.s.sol
 ```
-"registry_address": "0x3B1554f346DFe5c482Bb4BA31b880c1C18412170",
-Press crtl+x
-press y
-press enter
+"registry_address": "0x3B1554f346DFe5c482Bb4BA31b880c1C18412170",  
+Press crtl+x  
+press y  
+press enter  
 
 ```
 nano ~/infernet-container-starter/projects/hello-world/container/config.json
 ```
 
-"registry_address": "0x3B1554f346DFe5c482Bb4BA31b880c1C18412170",
-change private_key to your wallet's private key.
+"registry_address": "0x3B1554f346DFe5c482Bb4BA31b880c1C18412170",  
+change private_key to your wallet's private key.  
 
-Press crtl+x
-press y
-press enter
+Press crtl+x  
+press y  
+press enter  
 
 ```
 cd deploy 
@@ -104,9 +104,9 @@ nano docker-compose.yaml
 
 ```
 
-check your image version must to be 1.0.0
+check your image version must to be 1.0.0  
 
-Press crtl+x
+Press crtl+x  
 
 ```
 docker compose down
@@ -151,10 +151,10 @@ pick deployed sayshello address
 ```
 nano ~/infernet-container-starter/projects/hello-world/contracts/script/CallContract.s.sol
 ```
-put it there
-Press crtl+x
-press y
-press enter
+put it there  
+Press crtl+x  
+press y  
+press enter  
 
 ```
 make call-contract project=hello-world
