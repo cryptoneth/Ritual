@@ -164,7 +164,13 @@ make call-contract project=hello-world
 
 docker ps -a
 
+```
 docker logs infernet-node 
-docker logs infernet-anvil 
+```
 
+```
+docker logs infernet-anvil 
+```
+
+تمام
 
